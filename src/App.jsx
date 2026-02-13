@@ -113,12 +113,12 @@ function App() {
 
           {!showFinalMessage ? (
             <div className={`container ${showProposal ? "show" : ""}`}>
-              <h1>เธอจะเป็นวาเลนไทน์ของเค้าไหม❤️</h1>
+              <h1>Will u be my Valentine?❤️</h1>
               <img src={image} alt="วาเลนไทน์" className="photo" />
 
               <div className="buttons">
                 <button className="yes" onClick={handleYesClick}>
-                  ตกลง ❤️
+                  Yes ❤️
                 </button>
 
                 <button
@@ -131,7 +131,7 @@ function App() {
                   onMouseEnter={moveNoButton}
                   onClick={handleNoClick}
                 >
-                  ไม่ 💔
+                  No!! 💔
                 </button>
               </div>
 
@@ -143,8 +143,8 @@ function App() {
             </div>
           ) : (
             <div className="final-message">
-              <p>💖 ขอบคุณที่เป็นวาเลนไทน์ของเค้า 💖</p>
-              <p>💖 เค้ารักเธอมากนะ โบว์ 💖</p>
+              <p>💖 ขอบคุณน้าาาที่มาเป็นวาเลนไทน์ของเค้า 💖</p>
+              <p>💖 เค้ารักเธอมากๆน้าาา โบว์ 💖</p>
 
               <img
                 src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2g1NWluNjM0aHoxNDFubjlmZjBhMjl3emRuZmo3MHI5bXFwbXU0YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oriO6qJiXajN0TyDu/giphy.gif"
